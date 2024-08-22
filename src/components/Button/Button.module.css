@@ -1,0 +1,21 @@
+.Button{
+    background-color: #56a1cc;
+    outline: 0px solid #2068b4;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, transform 0.1s;
+        /* Smooth transition */
+}
+
+.Button:hover {
+    background-color: #2068b4;
+    /* Darker shade on hover */
+}
+
+.Button:active {
+    background-color: #2068b4;
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+
