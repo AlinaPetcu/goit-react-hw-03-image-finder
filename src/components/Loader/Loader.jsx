@@ -14,11 +14,11 @@ export default class CustomLoader extends Component {
         }}
       >
         <Audio
-          height="80"
-          width="80"
-          radius="9"
-          color="green"
-          ariaLabel="three-dots-loading"
+          height="50"
+          width="50"
+          radius="50"
+          color="blue"
+          ariaLabel="spinner"
           wrapperStyle
           wrapperClass
         />
